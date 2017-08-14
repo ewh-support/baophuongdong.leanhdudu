@@ -1,0 +1,105 @@
+.bg-icon-article,
+.bg-icon-article\:regular, .bg-icon-box-score,
+.bg-icon-box-score\:regular, .bg-icon-comment-dark,
+.bg-icon-comment-dark\:regular, .bg-icon-comment-light,
+.bg-icon-comment-light\:regular, .bg-icon-comment-mid,
+.bg-icon-comment-mid\:regular, .bg-icon-gallery,
+.bg-icon-gallery\:regular, .bg-icon-infographic,
+.bg-icon-infographic\:regular, .bg-icon-star-empty,
+.bg-icon-star-empty\:regular, .bg-icon-star-filled,
+.bg-icon-star-filled\:regular, .bg-icon-star-half,
+.bg-icon-star-half\:regular, .bg-icon-video,
+.bg-icon-video\:regular {
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: .25em;
+}
+
+.bg-icon-article,
+.bg-icon-article\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 0;
+  width: 17px;
+  height: 20px;
+}
+
+.bg-icon-box-score,
+.bg-icon-box-score\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -20px;
+  width: 37px;
+  height: 20px;
+}
+
+.bg-icon-comment-dark,
+.bg-icon-comment-dark\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -40px;
+  width: 16px;
+  height: 18px;
+}
+
+.bg-icon-comment-light,
+.bg-icon-comment-light\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -58px;
+  width: 16px;
+  height: 18px;
+}
+
+.bg-icon-comment-mid,
+.bg-icon-comment-mid\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -76px;
+  width: 16px;
+  height: 18px;
+}
+
+.bg-icon-gallery,
+.bg-icon-gallery\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -94px;
+  width: 24px;
+  height: 17px;
+}
+
+.bg-icon-infographic,
+.bg-icon-infographic\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -111px;
+  width: 20px;
+  height: 18px;
+}
+
+.bg-icon-star-empty,
+.bg-icon-star-empty\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -129px;
+  width: 17px;
+  height: 16px;
+}
+
+.bg-icon-star-filled,
+.bg-icon-star-filled\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -145px;
+  width: 17px;
+  height: 16px;
+}
+
+.bg-icon-star-half,
+.bg-icon-star-half\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -161px;
+  width: 16px;
+  height: 16px;
+}
+
+.bg-icon-video,
+.bg-icon-video\:regular {
+  background-image: url("icons/icons.png");
+  background-position: 0 -177px;
+  width: 19px;
+  height: 19px;
+}
