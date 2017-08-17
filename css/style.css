@@ -5481,7 +5481,9 @@ template {
     float: left;
     width: 100%;
 }
-
+.stories-top img {
+	width: 100%;
+}
 .stories-top .spread {
     border-bottom: 1px solid #DBDBDB;
     padding-bottom: 1em;
