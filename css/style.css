@@ -282,7 +282,7 @@ form.search,
 p a,
 i .a,
 a {
-    color: #444;
+    color: #111;
     text-decoration: none;
     -moz-transition: color 0.1s linear, background-color 0.1s linear;
     -ms-transition: color 0.1s linear, background-color 0.1s linear;
@@ -1698,7 +1698,7 @@ div.recommended.recommended--tease.duplicate_article {
 
 .bg-header__nav li {
     display: inline-block;
-    padding: 0 25px 5px;
+    padding: 0 15px 5px;
     position: relative;
     height: 20px;
     vertical-align: middle;
@@ -5499,6 +5499,7 @@ template {
 
 .story p {
     margin-bottom: 0.5em;
+    font-family: 'Noto Serif', serif;
 }
 
 .group-alt .story p.hed-cat {
@@ -5533,7 +5534,7 @@ template {
 .stories-top .bg-related__heading,
 .stories-top .bg-newsletter-signup__text--newsletter-title {
     font-size: 2.2em;
-    line-height: 20px;
+    line-height: 1.125em;
     margin-bottom: 0.25em;
 }
 
@@ -5541,7 +5542,13 @@ template {
     font-size: 2.6em;
     line-height: 1.2;
     padding-left: 1px;
+    font-family: 'Noto Serif', serif;
 }
+
+.stories-top .hed-lead a {
+    color: #000;
+}
+
 .stories-top .mid-lead {
     font-size: 1.8em;
 }
@@ -5586,7 +5593,7 @@ template {
 
 .stories-top .rel {
     border-bottom: none;
-    margin: 0 10px 20px 0px;
+    margin: 5px 10px 20px 0px;
     width: 24%;
     /* 80/386 */
 }
@@ -10015,15 +10022,19 @@ li.save button:focus {
 .event .excerpt a:hover {
     text-decoration: none;
 }
+
 .article-body p.caption {
-	font-size: 1.65em;
+    font-size: 1.65em;
     line-height: 1.5em;
 }
+
 .article-body p,
 .article-body h2 {
     margin: 1.125em 0;
     font-size: 1.125em;
     line-height: 1.75em;
+    font-family: 'Noto Serif', serif;
+    text-align: justify;
 }
 
 .article-body .slideshow p,
@@ -12563,7 +12574,7 @@ print {
         line-height: 1;
     }
     .stories-top .hed-lead {
-        font-size: 3.6em;
+        font-size: 3em;
         /* 36px / 10px */
         line-height: 1.02857143;
         /* 36px / 35px */
@@ -17993,7 +18004,6 @@ input:checked+.promo-well__sponsored-container {
     line-height: 1.4;
 }
 
-
 .site-footer__link {
     color: #444444;
     padding-bottom: 2px;
@@ -18029,7 +18039,6 @@ input:checked+.promo-well__sponsored-container {
     font-family: "Benton Sans", Helvetica, Arial, sans-serif;
     line-height: 1.4;
 }
-
 
 @media (min-width: 500px) {
     .site-footer__content:before {
@@ -18119,7 +18128,6 @@ input:checked+.promo-well__sponsored-container {
     line-height: 1.8;
     transition: background 0.35s ease-in-out;
 }
-
 
 .subscription-banner__link {
     display: block;
@@ -20244,7 +20252,6 @@ body.big-picture .ugc-comments li.comment {
     line-height: 1.8;
 }
 
-
 .user-profile .personal-info p {
     margin-bottom: 10px;
     margin-bottom: 1rem;
@@ -20304,7 +20311,6 @@ body.big-picture .ugc-comments li.comment {
     line-height: 1.4;
 }
 
-
 .user-profile .profile-body .section-h2 {
     font-size: 13.5pt;
     font-size: 1.71rem;
@@ -20314,14 +20320,12 @@ body.big-picture .ugc-comments li.comment {
     margin-bottom: 2rem;
 }
 
-
 .user-profile .profile-body ul>p {
     font-size: 9pt;
     font-size: 1.14rem;
     font-family: "Benton Sans", Helvetica, Arial, sans-serif;
     line-height: 1.4;
 }
-
 
 .user-profile .profile-body li {
     padding: 15px 0;
@@ -20340,6 +20344,7 @@ body.big-picture .ugc-comments li.comment {
     font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
     line-height: 1.8;
 }
+
 .user-profile .profile-body .timestamp {
     margin-bottom: x-smallpx;
     margin-bottom: x-small/10rem;
@@ -20394,7 +20399,6 @@ body.big-picture .ugc-comments li.comment {
     font-family: "Benton Sans", Helvetica, Arial, sans-serif;
     line-height: 1.8;
 }
-
 
 .user-profile .profile-body .edit-profile textarea {
     width: 100%;
@@ -20466,6 +20470,7 @@ body.big-picture .ugc-comments li.comment {
     margin-bottom: 20px;
     margin-bottom: 2rem;
 }
+
 .user-profile .widget li {
     overflow: hidden;
     margin-bottom: 8px;

@@ -1,6 +1,6 @@
-$(function () {
-    $.fn.limit = function ($n) {
-        this.each(function () {
+$(function() {
+    $.fn.limit = function($n) {
+        this.each(function() {
             var allText = $(this).html();
             var tLength = $(this).html().length;
             var startText = allText.slice(0, $n);
@@ -13,11 +13,11 @@ $(function () {
 
         return this;
     }
-    $('.excerpt p').limit(200);
+    $('.excerpt p').limit(160);
 });
-$(function () {
-    $.fn.limit = function ($n) {
-        this.each(function () {
+$(function() {
+    $.fn.limit = function($n) {
+        this.each(function() {
             var allText = $(this).html();
             var tLength = $(this).html().length;
             var startText = allText.slice(0, $n);
