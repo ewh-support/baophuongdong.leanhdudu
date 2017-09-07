@@ -953,7 +953,7 @@ nav.section,
     background: -o-linear-gradient(top, #006621 0%, #004a23 100%);
     background: -ms-linear-gradient(top, #006621 0%, #004a23 100%);
     background: linear-gradient(to bottom, #006621 0%, #004a23 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#006621', endColorstr='#004a23', GradientType=0);
+    /* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#006621', endColorstr='#004a23', GradientType=0); */
     color: #fff;
     border: none;
     padding: 0.7em 1em;
@@ -1842,7 +1842,7 @@ div.recommended.recommended--tease.duplicate_article {
     overflow: hidden;
     display: block;
     float: left;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
     font-size: 15px;
 }
@@ -4423,7 +4423,7 @@ div.recommended.recommended--tease.duplicate_article {
 /*main sections navigation */
 
 .sections {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     position: relative;
     overflow: visible;
 }
@@ -5273,8 +5273,8 @@ template {
     width: 100%;
 }
 
-.enhanced .figure img {
-    width: auto;
+.story-title .figure img {
+    width: 120px;
 }
 
 .figure img,
@@ -5499,7 +5499,7 @@ template {
 
 .story p {
     margin-bottom: 0.5em;
-    font-family: 'Noto Serif', serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .group-alt .story p.hed-cat {
@@ -5536,6 +5536,7 @@ template {
     font-size: 2.2em;
     line-height: 1.125em;
     margin-bottom: 0.25em;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .stories-top .hed-lead {
@@ -6271,7 +6272,7 @@ i.by cite {
     position: relative;
     z-index: 99999;
     border: 1px solid #e2e2e2;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .ui-datepicker-calendar {
@@ -6411,7 +6412,7 @@ i.by cite {
     padding-bottom: 0;
     font-size: 1em;
     display: inline-block;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .infinite-special__headline.title-tease.extra-class {
@@ -6435,7 +6436,7 @@ i.by cite {
     border-radius: 10px;
     display: inline-block;
     margin-top: 30px;
-    font-family: "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .infinite-special__link:hover {
@@ -7052,7 +7053,7 @@ p.related-stories {
 
 .aside-more {
     text-transform: uppercase;
-    font-family: "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 12px;
     color: #1588ab;
     padding-left: 3px;
@@ -7626,7 +7627,7 @@ a.disabled {
 .continue-holder .continue-text {
     display: block;
     padding: 10px 25px;
-    font-family: "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 15px;
     width: 40%;
     border: 1px solid #DDD;
@@ -8250,7 +8251,7 @@ a.disabled {
 
 .article-stub form.test div.floatLeft a.get-password,
 .article-stub form.test div.floatLeft a.get-password:hover {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 @media screen and (max-width: 1300px) {
@@ -9031,7 +9032,7 @@ a.more {
 
 .main-hed {
     color: #000;
-    font: bold 2.4em/1.04347826 "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
     letter-spacing: -0.05em;
     margin-bottom: 0.5em;
 }
@@ -9044,7 +9045,7 @@ a.more {
 .subhed {
     clear: both;
     color: #000;
-    font: bold 1.3em/1.3 "Benton Sans", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .subhed b,
@@ -9057,7 +9058,7 @@ a.more {
 .article .subhed,
 .bg-mag-sub .subhed {
     color: #464646;
-    font: normal 1.6em/1.19230769 "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
     /* 26/10; 31/26 */
     letter-spacing: -0.05em;
     margin-bottom: .5em;
@@ -10025,14 +10026,15 @@ li.save button:focus {
 .article-body p.caption {
     font-size: 1.65em;
     line-height: 1.5em;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .article-body p,
 .article-body h2 {
-    margin: 1.125em 0;
+    margin: 0 0;
     font-size: 1.125em;
-    line-height: 1.75em;
-    font-family: 'Noto Serif', serif;
+    line-height: 1.4em;
+    font-family: "Times New Roman", Times, serif;
     text-align: justify;
 }
 
@@ -10042,7 +10044,8 @@ li.save button:focus {
 }
 
 .article-body h2 {
-    font: bold 18px/1.1176 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 18px/1.1176 "Times New Roman", Times, serif;
+    ;
     /* 17 / 16; 19 / 17*/
 }
 
@@ -12405,9 +12408,9 @@ print {
     .mod-b,
     .mod-sole {
         margin-bottom: 25px;
-        width: 47%;
+        width: 100%;
         /* 306/621 */
-        max-width: 47%;
+        max-width: 100%;
     }
     .mod-a {
         clear: left;
@@ -13280,6 +13283,9 @@ print {
         /* 306/960 */
         float: right;
     }
+    .bg-home-lead {
+        margin-top: 45px;
+    }
     .bg-home-lead .bg-col-ab {
         border-bottom: none;
         margin-bottom: 0;
@@ -13869,7 +13875,7 @@ print {
 
 .campaign-leaderboard {
     font-size: 10px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     position: relative;
     border: 1px solid #ccc;
     padding: 1em;
@@ -14495,7 +14501,7 @@ tbody .pol2012-state {
 .marathon-leaderboard {
     overflow: hidden;
     font-size: 1.2em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin-bottom: 0.75em;
     color: #464646;
 }
@@ -14926,7 +14932,7 @@ tbody .pol2012-state {
 }
 
 .recommended__more {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     color: #127694;
     padding-left: 5px;
@@ -15585,7 +15591,7 @@ aside.tools {
     margin: 0;
     width: 100%;
     height: 46px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     line-height: 1.4;
     transition: top 300ms;
     -webkit-transition: top 300ms;
@@ -17505,7 +17511,7 @@ input:checked+.promo-well__sponsored-container {
 }
 
 .bg-newsletter-signup__text--subhead {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     color: white;
     text-shadow: 0px 1px 2px black;
@@ -17562,7 +17568,7 @@ input:checked+.promo-well__sponsored-container {
 }
 
 .bg-newsletter-signup__input--email--grey {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     color: #000;
     background: #ececec;
 }
@@ -17574,7 +17580,7 @@ input:checked+.promo-well__sponsored-container {
 .bg-newsletter-signup .bg-button--red--full {
     font-size: 10px;
     padding: 5px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-style: normal;
     width: 35%;
     display: inline-block;
@@ -17965,9 +17971,9 @@ input:checked+.promo-well__sponsored-container {
 }
 
 .site-footer__content {
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 13.5pt;
     font-size: 1.71rem;
     font-family: "Benton Sans", Helvetica, Arial, sans-serif;
@@ -18157,7 +18163,7 @@ input:checked+.promo-well__sponsored-container {
 .site-footer__heading {
     font-size: 11.25pt;
     font-size: 1.425rem;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     line-height: 1.8;
     font-weight: 700;
 }
@@ -18756,15 +18762,15 @@ body.big-picture #masthead.search-form-focus .search-inputs input {
 }
 
 body.big-picture .hlv {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 body.big-picture .geor {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 body.big-picture .bent {
-    font-family: "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 body.big-picture #post-comment,
@@ -19228,6 +19234,9 @@ body.big-picture .email-form input.bg-button {
 }
 
 @media all and (max-width: 700px) {
+    .brandlab__content__part .brandlab__chip a img {
+        height: auto;
+    }
     body.big-picture .tools>a {
         float: left;
     }
@@ -19511,12 +19520,12 @@ body.big-picture .ugc-comments li.comment {
     font-size: 17px;
     font-size: 1.7rem;
     line-height: 1.1;
-    font-family: "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .ugc-comments .comment-controls {
     float: right;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: .9em;
 }
 
@@ -19649,7 +19658,7 @@ body.big-picture .ugc-comments li.comment {
 
 .ugc-comments .more-replies {
     font-size: .8em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     line-height: 1.6em;
     font-weight: bold;
     text-align: center;
@@ -19799,7 +19808,7 @@ body.big-picture .ugc-comments li.comment {
 }
 
 .ugc-comments .pagination {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     position: relative;
     width: 100%;
     font-size: 1em;
@@ -19895,7 +19904,7 @@ body.big-picture .ugc-comments li.comment {
 }
 
 .ugc-modal .heading {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 16px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
@@ -20558,13 +20567,13 @@ body.big-picture .ugc-comments li.comment {
 }
 
 .brandlab__title {
-    font-family: "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: normal;
     padding: 0 .5em 0 .75em;
 }
 
 .brandlab__title__unbold {
-    font-family: "Benton Sans Regular", Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: normal;
 }
 
@@ -20572,7 +20581,6 @@ body.big-picture .ugc-comments li.comment {
     display: none;
     margin-left: .75em;
     color: #bababa;
-    font: 64.1711229947% Georgia, serif;
     font-style: italic;
 }
 
@@ -20580,7 +20588,6 @@ body.big-picture .ugc-comments li.comment {
     position: relative;
     padding: 6px 10px;
     color: #bababa;
-    font: 64.1711229947% Georgia, serif;
     font-style: italic;
     text-transform: lowercase;
     cursor: pointer;
@@ -20649,6 +20656,11 @@ body.big-picture .ugc-comments li.comment {
     flex: 1;
     display: -webkit-flex;
     display: flex;
+}
+
+.brandlab__content__part .brandlab__chip a img {
+    width: 100%;
+    height: 250px;
 }
 
 .brandlab__content__part:nth-child(2) {
