@@ -626,7 +626,7 @@ a:hover.bar-red {
     background: url("//c.o0bg.com/rw/SysConfig/WebPortal/BostonGlobe/Framework/images/global/red_left_round.png") left 50% no-repeat;
     color: #FFF;
     display: inline-block;
-    font-family: "Helvetica", Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     margin: -3px 0 0 0;
     padding: 0 0 0 7px;
@@ -4956,7 +4956,7 @@ div.menu-expanded {
     #contain .menu-more li {
         font-size: 1em;
         text-transform: uppercase;
-        font-family: "Helvetica", Arial, sans-serif;
+        font-family: "Times New Roman", Times, serif;
     }
     #contain .menu-more li a {
         padding: .7em 0;
@@ -6358,7 +6358,7 @@ i.by cite {
 }
 
 .quicknav .sub {
-    font-family: arial, helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     padding-top: 10px;
     text-transform: uppercase;
     max-width: 100%;
@@ -6399,7 +6399,7 @@ i.by cite {
     background-color: black;
     color: white;
     font-size: 1em;
-    font-family: "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
     letter-spacing: 1px;
 }
 
@@ -7730,7 +7730,7 @@ a.disabled {
 }
 
 .type-login .welcome {
-    font-family: "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 2em;
     line-height: 1.1em;
     padding: .3em;
@@ -8539,7 +8539,7 @@ p.menu {
 
 .frontpage-preview .slidewrap a.story-perm,
 .section-magazine .slidewrap a.story-perm {
-    font-family: arial, helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     text-transform: uppercase;
 }
 
@@ -8874,16 +8874,18 @@ a.more {
 
 .popular-list ol a {
     display: block;
-    font: normal 1.45em/1.125 Georgia, "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     padding: 0.5em 0.5em 0.5em 0;
     line-height: 1.4615em;
+    font-size: 1.6em;
+    font-weight: 700;
 }
 
 .popular-list i {
     background: #CCC;
     color: #464646;
     font-style: normal;
-    font: normal 0.625em/1 Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     /* 10px / 16px; 12px / 10px */
     margin-right: 0.3em;
     padding: 0.3em;
@@ -14187,7 +14189,7 @@ print {
 
 .pol2012-leaderboard {
     font-size: 10px;
-    font-family: "Helvetica", Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin: 1em 0 1.25em;
 }
 
@@ -15184,7 +15186,7 @@ header .bg-button--red--full {
     background-color: #eeeeee;
     border-top: 4px solid #cccccc;
     margin-bottom: 20px;
-    font-family: "BentonSansRegular", Georgia, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 16px;
     min-height: 80px;
     clear: both;
