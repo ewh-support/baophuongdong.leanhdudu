@@ -5142,7 +5142,7 @@ template {
     border-bottom: 1px solid #DBDBDB;
     border-width: 1px 0;
     clear: both;
-    font: bold 1.7em/1.1 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.7em/1.1 "Time New Roman", Arial, Helvetica, sans-serif;
     padding: 0.5em 0;
     margin-bottom: 1.5em;
 }
@@ -5151,7 +5151,7 @@ template {
 .fontface .bg-newsletter-signup__text--header--white,
 .fontface .bg-newsletter-signup__text--header--black,
 .fontface .back-section {
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .hed-section a,
@@ -5214,7 +5214,7 @@ template {
 .story-title,
 .bg-related__heading,
 .bg-newsletter-signup__text--newsletter-title {
-    font: bold 18px/21px "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: bold 18px/21px "Times New Roman", Times, Georgia, serif;
     letter-spacing: -0.05em;
     margin-bottom: .3em;
 }
@@ -5222,13 +5222,13 @@ template {
 .fontface .story-title,
 .fontface .bg-related__heading,
 .fontface .bg-newsletter-signup__text--newsletter-title {
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: normal;
 }
 
 .hed-major {
     color: #000;
-    font: bold 3.6em/0.8 "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: bold 3.6em/0.8  "Times New Roman", Times, Georgia, serif;
     text-align: center;
     letter-spacing: -0.05em;
     margin-bottom: 1em;
@@ -5533,7 +5533,7 @@ template {
 .stories-top .story-title,
 .stories-top .bg-related__heading,
 .stories-top .bg-newsletter-signup__text--newsletter-title {
-    font-size: 2.2em;
+    /* font-size: 2.2em; */
     line-height: 1.125em;
     margin-bottom: 0.25em;
     font-family: "Times New Roman", Times, serif;
@@ -7166,7 +7166,7 @@ a.more {
 .feat-thumb .story-title,
 .feat-thumb .bg-related__heading,
 .feat-thumb .bg-newsletter-signup__text--newsletter-title {
-    font: normal 1.6em Georgia, "Times New Roman", Times, serif;
+    font: normal 1.6em "Times New Roman", Times, serif;
 }
 
 .feat-thumb img {
@@ -7795,7 +7795,7 @@ a.disabled {
 
 .article-stub h2 {
     margin: 0;
-    font: bold 18px/1.1176 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 18px/1.1176 "Time New Roman", Arial, Helvetica, sans-serif;
 }
 
 .article-body .article-stub h2 a.banner-link {
