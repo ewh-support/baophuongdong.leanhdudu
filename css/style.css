@@ -5600,7 +5600,7 @@ template {
 
 .stories-top .rel img {
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
 }
 
 .stories-top.auto .rel {
