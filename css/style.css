@@ -10034,10 +10034,11 @@ li.save button:focus {
 .article-body p,
 .article-body h2 {
     margin: 0 0;
-    font-size: 1.125em;
-    line-height: 1.4em;
+    /* font-size: 1.125em; */
+    line-height: 1.65em;
     font-family: "Times New Roman", Times, serif;
     text-align: justify;
+    padding-bottom: 10px;
 }
 
 .article-body .slideshow p,
