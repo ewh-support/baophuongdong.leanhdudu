@@ -20,7 +20,7 @@
 html,
 body,
 div,
-span,
+    span,
 object,
 iframe,
 h1,
@@ -213,6 +213,32 @@ select {
 }
 
 
+/*
+Desmond Style
+ */
+
+
+@font-face {
+    font-family: LCB-Century-CnBd;
+    src: url(font/LCB-CenturyStd-CnBd.otf);
+}
+
+.tod-paper-section .content{
+    padding: 0.5em 0.5em 0.5em 0;
+    border-top: 1px solid #CBCBCB;
+        padding-top: 15px;
+    padding-bottom: 2px;
+}
+
+.tod-paper-section .hed-section + .content{
+        border-top: none;
+    padding-top: 0;
+}
+
+/*
+End Desmond Style
+ */
+
 /* unsets from Basic CSS
 - these are here to combat the appearance when JS is disabled in a media-aware browser, and basic.css styles apply alongside enhanced ones */
 
@@ -282,7 +308,7 @@ form.search,
 p a,
 i .a,
 a {
-    color: #111;
+    color: #444;
     text-decoration: none;
     -moz-transition: color 0.1s linear, background-color 0.1s linear;
     -ms-transition: color 0.1s linear, background-color 0.1s linear;
@@ -319,7 +345,7 @@ i .a:focus {
 
 html {
     font-size: 62.5% !important;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Times New Roman", serif;
 }
 
 body {
@@ -626,7 +652,7 @@ a:hover.bar-red {
     background: url("//c.o0bg.com/rw/SysConfig/WebPortal/BostonGlobe/Framework/images/global/red_left_round.png") left 50% no-repeat;
     color: #FFF;
     display: inline-block;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-weight: bold;
     margin: -3px 0 0 0;
     padding: 0 0 0 7px;
@@ -1157,7 +1183,7 @@ div.recommended.recommended--tease.duplicate_article {
     height: 42px;
     padding: 0 0 5px 10px;
     font-size: 28px;
-    font-family: 'Benton Sans Black', Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, Arial, sans-serif;
     width: 85%;
     width: -moz-calc(100% - 82px);
     width: -webkit-calc(100% - 82px);
@@ -1842,7 +1868,7 @@ div.recommended.recommended--tease.duplicate_article {
     overflow: hidden;
     display: block;
     float: left;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-weight: 700;
     font-size: 15px;
 }
@@ -2774,7 +2800,7 @@ div.recommended.recommended--tease.duplicate_article {
     }
     .type-home .bg-header,
     .type-internal:not(.type-article) .bg-header {
-        margin: 10px 0 8px;
+        margin: 40px 0 8px;
     }
     .type-home .bg-header__subinfo,
     .type-internal:not(.type-article) .bg-header__subinfo {
@@ -3248,7 +3274,7 @@ div.recommended.recommended--tease.duplicate_article {
     }
     .bg-header__sections .bg-header__section {
         font-size: 48px;
-        font-family: 'Benton Sans Black', Helvetica, Arial, sans-serif;
+        font-family: Arial, Helvetica, Arial, sans-serif;
     }
     .bg-header__sections .bg-header__section:first-child {
         padding: 0;
@@ -3358,7 +3384,7 @@ div.recommended.recommended--tease.duplicate_article {
         max-width: none;
     }
     .bg-header__suggestion-title {
-        font-family: Georgia, serif;
+        font-family: "Times New Roman", serif;
         font-size: 1.6em;
         text-align: left;
         color: #464646;
@@ -4423,7 +4449,7 @@ div.recommended.recommended--tease.duplicate_article {
 /*main sections navigation */
 
 .sections {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     position: relative;
     overflow: visible;
 }
@@ -4956,7 +4982,7 @@ div.menu-expanded {
     #contain .menu-more li {
         font-size: 1em;
         text-transform: uppercase;
-        font-family: "Times New Roman", Times, serif;
+        font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     }
     #contain .menu-more li a {
         padding: .7em 0;
@@ -5142,7 +5168,7 @@ template {
     border-bottom: 1px solid #DBDBDB;
     border-width: 1px 0;
     clear: both;
-    font: bold 1.7em/1.1 "Time New Roman", Arial, Helvetica, sans-serif;
+    font: bold 1.7em/1.1 Arial, Helvetica, sans-serif;
     padding: 0.5em 0;
     margin-bottom: 1.5em;
 }
@@ -5214,7 +5240,7 @@ template {
 .story-title,
 .bg-related__heading,
 .bg-newsletter-signup__text--newsletter-title {
-    font: bold 18px/21px "Times New Roman", Times, Georgia, serif;
+    font: bold 18px/21px "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     letter-spacing: -0.05em;
     margin-bottom: .3em;
 }
@@ -5228,7 +5254,7 @@ template {
 
 .hed-major {
     color: #000;
-    font: bold 3.6em/0.8  "Times New Roman", Times, Georgia, serif;
+    font: bold 3.6em/0.8  "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     text-align: center;
     letter-spacing: -0.05em;
     margin-bottom: 1em;
@@ -5499,7 +5525,7 @@ template {
 
 .story p {
     margin-bottom: 0.5em;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Serif;
 }
 
 .group-alt .story p.hed-cat {
@@ -5533,10 +5559,10 @@ template {
 .stories-top .story-title,
 .stories-top .bg-related__heading,
 .stories-top .bg-newsletter-signup__text--newsletter-title {
-    /* font-size: 2.2em; */
+     font-size: 2.2em; 
     line-height: 1.125em;
     margin-bottom: 0.25em;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 .stories-top .hed-lead {
@@ -5554,7 +5580,7 @@ template {
 }
 
 .stories-top .sub-hed {
-    font: bold 1.3em Georgia, "Times New Roman", Times, serif;
+    font: bold 1.3em Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     line-height: 1.30769231;
     /* 17 / 13 */
 }
@@ -5610,7 +5636,7 @@ template {
 }
 
 .stories-top .story {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 i.by {
@@ -5634,7 +5660,7 @@ i.by cite {
 .story-styled .story-title,
 .story-styled .bg-related__heading,
 .story-styled .bg-newsletter-signup__text--newsletter-title {
-    font: bold 3.2em/0.952380952 "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font: bold 3.2em/0.952380952 "Miller Headline Roman", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /* 42/10; 40/42 */
     margin-bottom: 0.1em;
 }
@@ -5642,7 +5668,7 @@ i.by cite {
 .lead-styled .excerpt,
 .story-styled .excerpt {
     color: #454545;
-    font: bold 1.8em/1.23076923 "Miller Headline Roman", Georgia, "Times New Roman", Times, serif;
+    font: bold 1.8em/1.23076923 "Miller Headline Roman", Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 26/10; 32/26 */
 }
 
@@ -5664,7 +5690,7 @@ i.by cite {
 
 .mag-date {
     border-bottom: 1px solid #CBCBCB;
-    font: bold 1.7em "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.7em Arial, Arial, Helvetica, sans-serif;
     /* 12px / 10px */
     padding: 0.4em 0.25em;
     margin-bottom: 1em;
@@ -5747,7 +5773,7 @@ i.by cite {
 .bg-mag-lead .story-title,
 .bg-mag-lead .bg-related__heading,
 .bg-mag-lead .bg-newsletter-signup__text--newsletter-title {
-    font: bold 3.6em/0.833333333 "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font: bold 3.6em/0.833333333 "Miller Headline Roman", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /* 36px / 10px; 30px / 36px */
     margin-bottom: 0.2em;
     letter-spacing: -0.05em;
@@ -5778,7 +5804,7 @@ i.by cite {
 }
 
 .bg-mag-lead .excerpt {
-    font: normal 2.1em/1.19047619 Georgia, "Times New Roman", times, serif;
+    font: normal 2.1em/1.19047619 Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 21px / 10px; 25px / 21px */
 }
 
@@ -5857,7 +5883,7 @@ i.by cite {
 }
 
 .bg-mag-sub .excerpt {
-    font: normal 1.6em/1.3125 Georgia, "Times New Roman", Times, serif;
+    font: normal 1.6em/1.3125 Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 21px / 16px */
     clear: left;
 }
@@ -6272,7 +6298,7 @@ i.by cite {
     position: relative;
     z-index: 99999;
     border: 1px solid #e2e2e2;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 .ui-datepicker-calendar {
@@ -6358,7 +6384,7 @@ i.by cite {
 }
 
 .quicknav .sub {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     padding-top: 10px;
     text-transform: uppercase;
     max-width: 100%;
@@ -6399,7 +6425,7 @@ i.by cite {
     background-color: black;
     color: white;
     font-size: 1em;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     letter-spacing: 1px;
 }
 
@@ -6412,7 +6438,7 @@ i.by cite {
     padding-bottom: 0;
     font-size: 1em;
     display: inline-block;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 .infinite-special__headline.title-tease.extra-class {
@@ -6436,7 +6462,7 @@ i.by cite {
     border-radius: 10px;
     display: inline-block;
     margin-top: 30px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 .infinite-special__link:hover {
@@ -6476,7 +6502,7 @@ i.by cite {
 .section-video .inside .feat-thumb .bg-related__heading,
 .section-video .inside .feat-thumb .bg-newsletter-signup__text--newsletter-title {
     color: #000;
-    font: bold 1.3em/1.307 Georgia, times, serif;
+    font: bold 1.3em/1.307 Georgia, LCB-Century-CnBd, serif;
     /* 13/10; 17/13 */
 }
 
@@ -6576,7 +6602,7 @@ i.by cite {
 .playlists .story .bg-related__heading,
 .playlists .story .bg-newsletter-signup__text--newsletter-title {
     color: #000;
-    font: bold 1.3em/1.461 georgia, times, serif;
+    font: bold 1.3em/1.461 georgia, LCB-Century-CnBd, serif;
     /* 13/10; 19/13 */
 }
 
@@ -6664,7 +6690,7 @@ i.by cite {
 .hed-topic {
     color: #9b1418;
     font-size: 2.4em;
-    font: bold 3em/1.366666 "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font: bold 3em/1.366666 Arial, Helvetica, Arial, sans-serif;
     /* 30px/10px; 41px/30px */
     /*margin: .833333em 0 .5em 0;*/
     /* 25px/30px; 15px/30px */
@@ -6680,7 +6706,7 @@ i.by cite {
 
 .hed-topic-alt {
     font-size: 2.4em;
-    font: bold 3em/1.366666 "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font: bold 3em/1.366666 Arial, Helvetica, Arial, sans-serif;
     /* 30px/10px; 41px/30px */
     border-bottom: 1px solid #cbcbcb;
     color: #000;
@@ -6688,7 +6714,7 @@ i.by cite {
 
 .hed-indepth {
     color: #464646;
-    font: bold 4em/1 "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font: bold 4em/1 "Miller Headline Roman", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /* 60px/10px; 41px/60px */
     margin: .4em 0 .35em 0;
     letter-spacing: -0.03em;
@@ -6710,7 +6736,7 @@ i.by cite {
 }
 
 .topic-leads .hed-curatedtopic {
-    font: bold 1.0625em/1.366666 "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font: bold 1.0625em/1.366666 Arial, Helvetica, Arial, sans-serif;
     /* 17px/16px */
     padding: 0 0 .6em 0;
 }
@@ -6894,7 +6920,7 @@ form.by-name input.submit {
 
 .associative-list dd {
     color: #444;
-    font: bold 1.3em/1.3076 Georgia, "Times New Roman", Times, Georgia, serif;
+    font: bold 1.3em/1.3076 Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /* 13/10; 17/13 */
 }
 
@@ -7016,7 +7042,7 @@ p.related-stories {
 }
 
 .in-section li {
-    font: normal 1.45em/1.2 Georgia, "Times New Roman", Times, serif;
+    font: normal 1.45em/1.2 Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 18px / 15px */
     border-bottom: 1px solid #DBDBDB;
 }
@@ -7053,7 +7079,7 @@ p.related-stories {
 
 .aside-more {
     text-transform: uppercase;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-size: 12px;
     color: #1588ab;
     padding-left: 3px;
@@ -7114,7 +7140,7 @@ body.type-article .in-section .bg-newsletter-signup__text--header--black {
 }
 
 .title-tease {
-    font: bold 2.3em/0.972222222 "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: bold 2.3em/0.972222222 "Miller Headline Bold", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /* ; 35 / 36 */
     letter-spacing: -0.03em;
 }
@@ -7166,7 +7192,7 @@ a.more {
 .feat-thumb .story-title,
 .feat-thumb .bg-related__heading,
 .feat-thumb .bg-newsletter-signup__text--newsletter-title {
-    font: normal 1.6em "Times New Roman", Times, serif;
+    font: normal 1.6em "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 .feat-thumb img {
@@ -7627,7 +7653,7 @@ a.disabled {
 .continue-holder .continue-text {
     display: block;
     padding: 10px 25px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-size: 15px;
     width: 40%;
     border: 1px solid #DDD;
@@ -7730,7 +7756,7 @@ a.disabled {
 }
 
 .type-login .welcome {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-size: 2em;
     line-height: 1.1em;
     padding: .3em;
@@ -7795,7 +7821,7 @@ a.disabled {
 
 .article-stub h2 {
     margin: 0;
-    font: bold 18px/1.1176 "Time New Roman", Arial, Helvetica, sans-serif;
+    font: bold 18px/1.1176 "LCB-Century-CnBd", Arial, Helvetica, sans-serif;
 }
 
 .article-body .article-stub h2 a.banner-link {
@@ -8087,7 +8113,7 @@ a.disabled {
 }
 
 .article-stub .stub-hed {
-    font: bold 24px/1.1176 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 24px/1.1176 Arial, Arial, Helvetica, sans-serif;
     color: #9B1418;
     border: none;
     margin-bottom: .5em;
@@ -8173,7 +8199,7 @@ a.disabled {
     display: block;
     margin-top: 1em;
     color: #333;
-    font: normal .9em Georgia, "Times New Roman", Times, serif;
+    font: normal .9em Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 .article-stub .errorlist a.error-link {
@@ -8251,7 +8277,7 @@ a.disabled {
 
 .article-stub form.test div.floatLeft a.get-password,
 .article-stub form.test div.floatLeft a.get-password:hover {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 @media screen and (max-width: 1300px) {
@@ -8422,7 +8448,7 @@ a.disabled {
 }
 
 .feat-pq blockquote {
-    font: italic 1.6em/1.4 Georgia, "Times New Roman", times, serif;
+    font: italic 1.6em/1.4 Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 21px / 17px */
     letter-spacing: -0.05em;
     position: static;
@@ -8449,7 +8475,7 @@ a.disabled {
 .feat-pq address,
 p.menu {
     /* color: #999; */
-    font: normal 13px/15px Georgia, "Times New Roman", Times, Georgia, serif;
+    font: normal 13px/15px Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
 }
 
 .feat-pq address {
@@ -8467,7 +8493,7 @@ p.menu {
 .subscribe-promo {
     border: none;
     border-top: 1px solid #CBCBCB;
-    font: bold 17px/22px "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font: bold 17px/22px "Miller Headline Roman", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     padding: 4px 0;
     /* 25/300 */
     border-bottom: none;
@@ -8486,7 +8512,7 @@ p.menu {
 }
 
 .subscribe-promo .title {
-    font: normal 35px/0.945945946 "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font: normal 35px/0.945945946 "Miller Headline Roman", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /* 35/37 */
     letter-spacing: -0.03em;
 }
@@ -8539,7 +8565,7 @@ p.menu {
 
 .frontpage-preview .slidewrap a.story-perm,
 .section-magazine .slidewrap a.story-perm {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     text-transform: uppercase;
 }
 
@@ -8816,7 +8842,7 @@ a.more {
 
 .latest-headlines a {
     display: block;
-    font: bold 13px/1.30769231 Georgia, "Times New Roman", Times, serif;
+    font: bold 13px/1.30769231 Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 17/13 */
     padding: 0.25em 0;
 }
@@ -8826,7 +8852,7 @@ a.more {
 }
 
 .popular-list .title {
-    font: bold 1.7em "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.7em Arial, Arial, Helvetica, sans-serif;
     /* 17px / 11px; 14px / 17px */
     margin-bottom: 0.5em;
 }
@@ -8874,7 +8900,7 @@ a.more {
 
 .popular-list ol a {
     display: block;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     padding: 0.5em 0.5em 0.5em 0;
     line-height: 1.4615em;
     font-size: 1.6em;
@@ -8885,7 +8911,7 @@ a.more {
     background: #CCC;
     color: #464646;
     font-style: normal;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 10px / 16px; 12px / 10px */
     margin-right: 0.3em;
     padding: 0.3em;
@@ -8962,7 +8988,7 @@ a.more {
 .section-nav h3,
 .scroller-contain .ad-jump {
     color: #000;
-    font: bold 18px/1.5 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 18px/1.5 Arial, Arial, Helvetica, sans-serif;
     /* 17px / 11px; 14px / 17px */
     margin-bottom: 1em;
 }
@@ -9034,7 +9060,7 @@ a.more {
 
 .main-hed {
     color: #000;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     letter-spacing: -0.05em;
     margin-bottom: 0.5em;
 }
@@ -9047,7 +9073,7 @@ a.more {
 .subhed {
     clear: both;
     color: #000;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 .subhed b,
@@ -9060,7 +9086,7 @@ a.more {
 .article .subhed,
 .bg-mag-sub .subhed {
     color: #464646;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 26/10; 31/26 */
     letter-spacing: -0.05em;
     margin-bottom: .5em;
@@ -9689,18 +9715,16 @@ h2.ico-pic,
 .slider .lead-figure {
     clear: none;
 }
-
+/*
 .article .story-title,
 .article .bg-related__heading,
 .article .bg-newsletter-signup__text--newsletter-title {
     clear: both;
     color: #000;
     font-size: 2.8em;
-    /* 28/10*/
     padding: .8em 0 .4642em 0;
-    /* 13/28 */
     line-height: 1.035;
-}
+}*/
 
 .tools {
     color: transparent;
@@ -9782,7 +9806,7 @@ aside.tools {
 
 .email-form h4 {
     color: #000;
-    font: 1.54545em/0.823529 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: 1.54545em/0.823529 Arial, Arial, Helvetica, sans-serif;
     text-transform: none;
     margin: 0 0 1em;
 }
@@ -10028,15 +10052,15 @@ li.save button:focus {
 .article-body p.caption {
     font-size: 1.65em;
     line-height: 1.5em;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", serif;
 }
 
 .article-body p,
 .article-body h2 {
     margin: 0 0;
-    /* font-size: 1.125em; */
-    line-height: 1.65em;
-    font-family: "Times New Roman", Times, serif;
+     font-size: 1.125em; 
+    line-height: 1.75em;
+    font-family: "Times New Roman", serif;
     text-align: justify;
     padding-bottom: 10px;
 }
@@ -10047,7 +10071,7 @@ li.save button:focus {
 }
 
 .article-body h2 {
-    font: bold 18px/1.1176 "Times New Roman", Times, serif;
+    font: bold 18px/1.1176 "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     ;
     /* 17 / 16; 19 / 17*/
 }
@@ -10078,7 +10102,7 @@ li.save button:focus {
 
 .article-note {
     background: #F2F2E8;
-    font: normal 0.8125em/1.76923077 Georgia, "Times New Roman", Times, Georgia, serif;
+    font: normal 0.8125em/1.76923077 Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /* 15px / 16px; 23px / 15px */
     font-style: italic;
     padding: 1.5em 1.5em 1px;
@@ -10113,21 +10137,20 @@ a.article-bar span {
 
 .article span.cap {
     float: left;
-    font: normal 4.61538462em/0.9 "Miller Globe Headline CondLarge", "Times New Roman", Times, Georgia, serif;
+    font: normal 4.61538462em/0.9 "Miller Globe Headline CondLarge", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /* 60px / 13px */
     margin: 0 0.05em 0 0;
 }
-
+/*
 .article .excerpt {
     font-size: 1.3em;
     line-height: 1.46153846;
-    /* 19 / 13 */
 }
 
 .article .excerpt {
     clear: both;
     padding: 1em 0 0 0;
-}
+}*/
 
 .article-body .ad {
     padding: 15px 0;
@@ -10181,7 +10204,7 @@ a.article-bar span {
 }
 
 .article-body .promo .figcaption {
-    font: bold 18px "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: bold 18px "Miller Headline Bold", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     letter-spacing: -0.05em;
     margin-bottom: 0.65em;
 }
@@ -10277,7 +10300,7 @@ a.article-bar span {
 }
 
 .related-links {
-    font: normal 13px/1.30769231 Georgia, "Times New Roman", Times, serif;
+    font: normal 13px/1.30769231 Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 17 / 13 */
 }
 
@@ -10856,7 +10879,7 @@ p.score-blog span {
 /* TK filament: promote this to breaking news, traffic? (.bg-alert) */
 
 .alert-title {
-    font: bold 1.7em "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.7em Arial, Arial, Helvetica, sans-serif;
     /* 17px / 10px */
 }
 
@@ -10865,7 +10888,7 @@ p.score-blog span {
 }
 
 .alert-sub {
-    font: bold 1.4em "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.4em Arial, Arial, Helvetica, sans-serif;
     /* 14px / 10px */
     color: #AB0009;
 }
@@ -10895,7 +10918,7 @@ p.score-blog span {
 }
 
 .fc-day-name {
-    font: bold 1.4em "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.4em Arial, Arial, Helvetica, sans-serif;
     /* 14px / 10px */
     float: left;
     width: 28.7671233%;
@@ -10936,7 +10959,7 @@ p.score-blog span {
 
 .fc-status em {
     float: left;
-    font: normal 12px Georgia, Times, serif;
+    font: normal 12px Georgia, LCB-Century-CnBd, serif;
     font-style: normal;
     margin-top: 1.25em;
 }
@@ -10953,7 +10976,7 @@ p.score-blog span {
 }
 
 .fc-temp {
-    font: bold 1.8em "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.8em Arial, Arial, Helvetica, sans-serif;
     /* 18px / 10px */
 }
 
@@ -11151,7 +11174,7 @@ p.score-blog span {
 }
 
 .article-nav-series .title {
-    font: bold 1.3em "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.3em Arial, Arial, Helvetica, sans-serif;
     /* 17px / 11px */
     padding: 0 0 .4em 0;
 }
@@ -11234,7 +11257,7 @@ p.score-blog span {
 }
 
 .story-part .big-hed {
-    font: bold 3.6em/1.04 "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: bold 3.6em/1.04 "Miller Headline Bold", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     letter-spacing: -0.03em;
     padding: .2em 0 .2em 0;
 }
@@ -11245,7 +11268,7 @@ p.score-blog span {
 }
 
 .story-part .lead-story .excerpt {
-    font: bold 2.2em/1.19230769 "Miller Headline Roman", Georgia, "Times New Roman", Times, serif;
+    font: bold 2.2em/1.19230769 "Miller Headline Roman", Georgia, "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     /* 26/10; 31/26 */
     letter-spacing: -0.05em;
 }
@@ -11308,7 +11331,7 @@ p.score-blog span {
 }
 
 .event-title {
-    font: bold 2.2em/1.19230769 "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: bold 2.2em/1.19230769 "Miller Headline Bold", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     letter-spacing: -0.05em;
     margin-bottom: .25em;
 }
@@ -11320,7 +11343,7 @@ p.score-blog span {
 
 .more-listings {
     text-align: right;
-    font: normal 1.7em/1.1 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: normal 1.7em/1.1 Arial, Arial, Helvetica, sans-serif;
     padding: 0.5em 0;
     margin: 0 1em 1em 0;
 }
@@ -11384,7 +11407,7 @@ p.score-blog span {
 }
 
 .listings .price {
-    font: bold 1.2em/1.1 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.2em/1.1 Arial, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -11396,7 +11419,7 @@ p.score-blog span {
 }
 
 .listings .status {
-    font: bold 1.2em/1.1 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.2em/1.1 Arial, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: #999;
     margin-top: .5em;
@@ -11490,7 +11513,7 @@ p.score-blog span {
 }
 
 .columnist-format h2 {
-    font: normal 16px/20px "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+    font: normal 16px/20px "Miller Headline Roman", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     padding-top: .2em;
 }
 
@@ -11776,7 +11799,7 @@ td.table-label {
 
 .bg-clues h3 {
     border-bottom: 1px solid #AAA;
-    font: normal 1.2em/1.1 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: normal 1.2em/1.1 Arial, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     text-align: center;
     padding: 0.4em 0;
@@ -11964,7 +11987,7 @@ td.table-label {
 
 .tease-box.not-logged-in-blue .tease-copy {
     color: #000;
-    font: bold 1.5em/1.1 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: bold 1.5em/1.1 Arial, Arial, Helvetica, sans-serif;
     margin: .5em auto;
 }
 
@@ -12665,7 +12688,7 @@ print {
     .bg-mag-sub .subhed {
         color: #464646;
         clear: none;
-        font: normal 2.6em/1.19230769 "Miller Headline Roman", "Times New Roman", Times, Georgia, serif;
+        font: normal 2.6em/1.19230769 "Miller Headline Roman", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
         /* 26/10; 31/26 */
     }
     .fontface .article .subhed,
@@ -13878,7 +13901,7 @@ print {
 
 .campaign-leaderboard {
     font-size: 10px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     position: relative;
     border: 1px solid #ccc;
     padding: 1em;
@@ -14190,7 +14213,7 @@ print {
 
 .pol2012-leaderboard {
     font-size: 10px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     margin: 1em 0 1.25em;
 }
 
@@ -14504,7 +14527,7 @@ tbody .pol2012-state {
 .marathon-leaderboard {
     overflow: hidden;
     font-size: 1.2em;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     margin-bottom: 0.75em;
     color: #464646;
 }
@@ -14838,7 +14861,7 @@ tbody .pol2012-state {
 }
 
 .recommended__title {
-    font: bold 2.3em/1.1em "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: bold 2.3em/1.1em "Miller Headline Bold", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     margin-bottom: 10px;
     letter-spacing: -0.05em;
 }
@@ -14935,7 +14958,7 @@ tbody .pol2012-state {
 }
 
 .recommended__more {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-weight: bold;
     color: #127694;
     padding-left: 5px;
@@ -15085,7 +15108,7 @@ tbody .pol2012-state {
 .bg-button--hollow {
     border: 1px solid #ccc;
     font-weight: bold;
-    font: bold 13px Georgia, Times, serif;
+    font: bold 13px Georgia, LCB-Century-CnBd, serif;
     text-transform: none;
     text-align: center;
     color: #444;
@@ -15104,7 +15127,7 @@ header .bg-button--hollow {
     width: 100%;
     border: 1px solid #ccc;
     font-weight: bold;
-    font: bold 13px Georgia, Times, serif;
+    font: bold 13px Georgia, LCB-Century-CnBd, serif;
     font-style: italic;
     text-align: center;
     color: #FFFFFF;
@@ -15187,7 +15210,7 @@ header .bg-button--red--full {
     background-color: #eeeeee;
     border-top: 4px solid #cccccc;
     margin-bottom: 20px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-size: 16px;
     min-height: 80px;
     clear: both;
@@ -15261,7 +15284,7 @@ header .bg-button--red--full {
     background-color: #127694;
     color: #FFFFFF;
     font-size: 15px;
-    font-family: "Benton Sans Bold", Georgia, sans-serif;
+    font-family: "Times New Roman", sans-serif;
     cursor: pointer;
     transition: background-color 0.35s ease-in-out;
 }
@@ -15298,13 +15321,13 @@ header .bg-button--red--full {
 }
 
 .inline-newsletter__bold {
-    font-family: "Benton Sans Bold", Georgia, sans-serif;
+    font-family: "Times New Roman", sans-serif;
 }
 
 .inline-newsletter__link {
     padding-bottom: 2px;
     color: #127694;
-    font-family: "Benton Sans Bold", Georgia, sans-serif;
+    font-family: "Times New Roman", sans-serif;
     text-decoration: none;
     cursor: pointer;
     border-bottom: 1px solid #127694;
@@ -15594,7 +15617,7 @@ aside.tools {
     margin: 0;
     width: 100%;
     height: 46px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     line-height: 1.4;
     transition: top 300ms;
     -webkit-transition: top 300ms;
@@ -15817,7 +15840,7 @@ body.type-article .new-articles .eptClick {
 }
 
 .trending-nav ul.aside {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Times New Roman", serif;
     counter-reset: trending-counter;
 }
 
@@ -15893,7 +15916,7 @@ body.type-article .new-articles .eptClick {
     border: 1px solid #dbdbdb;
     border-left: none;
     background-color: #f2f2e8;
-    font: normal 10px "Benton Sans Bold", Helvetica, sans-serif;
+    font: normal 10px Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: #000;
     white-space: nowrap;
@@ -16732,7 +16755,7 @@ input:checked+.promo-well__sponsored-container {
 
 .bg-related__button {
     color: #444;
-    font-family: normal "Benton Sans Bold", Helvetica, sans-serif;
+    font-family: normal Arial, Helvetica, sans-serif;
     background-color: #f2f2e8;
     border: 1px solid #d6d6d0;
     padding: 9px 9px;
@@ -16777,7 +16800,7 @@ input:checked+.promo-well__sponsored-container {
 
 .bg-related__more__list {
     font-weight: bold;
-    font-family: Georgia;
+    font-family: "Times New Roman", serif;
 }
 
 .bg-related__more__list>li {
@@ -17514,7 +17537,7 @@ input:checked+.promo-well__sponsored-container {
 }
 
 .bg-newsletter-signup__text--subhead {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-size: 14px;
     color: white;
     text-shadow: 0px 1px 2px black;
@@ -17571,7 +17594,7 @@ input:checked+.promo-well__sponsored-container {
 }
 
 .bg-newsletter-signup__input--email--grey {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     color: #000;
     background: #ececec;
 }
@@ -17583,7 +17606,7 @@ input:checked+.promo-well__sponsored-container {
 .bg-newsletter-signup .bg-button--red--full {
     font-size: 10px;
     padding: 5px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-style: normal;
     width: 35%;
     display: inline-block;
@@ -17628,7 +17651,7 @@ input:checked+.promo-well__sponsored-container {
 .bg-newsletter-signup .story .story-title,
 .bg-newsletter-signup .story .bg-related__heading,
 .bg-newsletter-signup .story .bg-newsletter-signup__text--newsletter-title {
-    font: bold 18px/21px "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: bold 18px/21px "Miller Headline Bold", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     font-weight: normal;
     letter-spacing: normal;
 }
@@ -17894,7 +17917,7 @@ input:checked+.promo-well__sponsored-container {
 }
 
 .countdownbox {
-    font: 1.7em/1.1 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: 1.7em/1.1 Arial, Arial, Helvetica, sans-serif;
     padding: 20px 0 20px 10px;
     font-size: 16px;
     font-weight: normal;
@@ -18008,7 +18031,7 @@ input:checked+.promo-well__sponsored-container {
     background: #eeeeee;
     font-size: 9pt;
     font-size: 1.14rem;
-    font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, Arial, sans-serif;
     line-height: 1.4;
 }
 
@@ -18132,7 +18155,7 @@ input:checked+.promo-well__sponsored-container {
     clear: both;
     font-size: 13.5pt;
     font-size: 1.71rem;
-    font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, Arial, sans-serif;
     line-height: 1.8;
     transition: background 0.35s ease-in-out;
 }
@@ -18166,7 +18189,7 @@ input:checked+.promo-well__sponsored-container {
 .site-footer__heading {
     font-size: 11.25pt;
     font-size: 1.425rem;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     line-height: 1.8;
     font-weight: 700;
 }
@@ -18214,13 +18237,13 @@ input:checked+.promo-well__sponsored-container {
     border: 1px solid #DBDBDB;
     border-width: 1px 0;
     clear: both;
-    font: 1.7em / 1.1 "Benton Sans Bold", Arial, Helvetica, sans-serif;
+    font: 1.7em / 1.1 Arial, Arial, Helvetica, sans-serif;
     padding: 0.5em 0;
     margin-bottom: 1em;
 }
 
 .poll .pds-question-top {
-    font: 18px / 21px "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font: 18px / 21px "Miller Headline Bold", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     margin-bottom: .5em;
 }
 
@@ -18532,7 +18555,7 @@ input:checked+.promo-well__sponsored-container {
 body.big-picture {
     background-color: #000000;
     color: white;
-    font-family: "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+    font-family: "Miller Headline Bold", "LCB-Century-CnBd", LCB-Century-CnBd, Georgia, serif;
     /*search bar */
     /* start page re-coloring */
     /* disable the classifides bar */
@@ -18765,15 +18788,15 @@ body.big-picture #masthead.search-form-focus .search-inputs input {
 }
 
 body.big-picture .hlv {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 body.big-picture .geor {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 body.big-picture .bent {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 body.big-picture #post-comment,
@@ -19161,7 +19184,7 @@ body.big-picture .email-form input.bg-button {
 }
 
 .big-picture #container .bignum {
-    font-family: "Miller Headline Roman", "TMiller Headline Bold", Times, Georgia, serif;
+    font-family: "Miller Headline Roman", "TMiller Headline Bold", LCB-Century-CnBd, Georgia, serif;
     font-size: 15px;
     float: left;
     padding: 0 10px;
@@ -19340,7 +19363,7 @@ body.big-picture .ugc-comments .comment-controls a:hover {
 }
 
 body.big-picture .ugc-comments .comment-body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Times New Roman", serif;
     font-size: 1em;
     line-height: 1.6em;
 }
@@ -19523,12 +19546,12 @@ body.big-picture .ugc-comments li.comment {
     font-size: 17px;
     font-size: 1.7rem;
     line-height: 1.1;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
 }
 
 .ugc-comments .comment-controls {
     float: right;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-size: .9em;
 }
 
@@ -19601,7 +19624,7 @@ body.big-picture .ugc-comments li.comment {
     font-weight: bold;
 }
 
-.ugc-comments .comment-timestamp {
+.ugc-comments .comment-LCB-Century-CnBdtamp {
     margin-left: 10px;
     font-size: .8em;
     color: #888;
@@ -19661,7 +19684,7 @@ body.big-picture .ugc-comments li.comment {
 
 .ugc-comments .more-replies {
     font-size: .8em;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     line-height: 1.6em;
     font-weight: bold;
     text-align: center;
@@ -19811,7 +19834,7 @@ body.big-picture .ugc-comments li.comment {
 }
 
 .ugc-comments .pagination {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     position: relative;
     width: 100%;
     font-size: 1em;
@@ -19907,7 +19930,7 @@ body.big-picture .ugc-comments li.comment {
 }
 
 .ugc-modal .heading {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-size: 16px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
@@ -20252,14 +20275,14 @@ body.big-picture .ugc-comments li.comment {
 .user-profile .profile-head p {
     font-size: 11.25pt;
     font-size: 1.425rem;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     line-height: 1.8;
 }
 
 .user-profile .personal-info {
     font-size: 11.25pt;
     font-size: 1.425rem;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     line-height: 1.8;
 }
 
@@ -20292,7 +20315,7 @@ body.big-picture .ugc-comments li.comment {
     border-top: 1px solid #444444;
     font-size: 9pt;
     font-size: 1.14rem;
-    font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, Arial, sans-serif;
     line-height: 1.4;
 }
 
@@ -20318,7 +20341,7 @@ body.big-picture .ugc-comments li.comment {
 .user-profile .profile-actions a {
     font-size: 9pt;
     font-size: 1.14rem;
-    font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, Arial, sans-serif;
     line-height: 1.4;
 }
 
@@ -20344,7 +20367,7 @@ body.big-picture .ugc-comments li.comment {
     border-bottom: 1px solid #dddddd;
     font-size: 13.5pt;
     font-size: 1.71rem;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     line-height: 1.8;
 }
 
@@ -20352,16 +20375,16 @@ body.big-picture .ugc-comments li.comment {
     color: #777777;
     font-size: 13.5pt;
     font-size: 1.71rem;
-    font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, Arial, sans-serif;
     line-height: 1.8;
 }
 
-.user-profile .profile-body .timestamp {
+.user-profile .profile-body .LCB-Century-CnBdtamp {
     margin-bottom: x-smallpx;
     margin-bottom: x-small/10rem;
     font-size: 11.25pt;
     font-size: 1.425rem;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     line-height: 1.8;
     color: #777777;
 }
@@ -20376,7 +20399,7 @@ body.big-picture .ugc-comments li.comment {
     color: #444444;
     font-size: 13.5pt;
     font-size: 1.71rem;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     line-height: 1.8;
     font-weight: 400;
 }
@@ -20389,7 +20412,7 @@ body.big-picture .ugc-comments li.comment {
 .user-profile .profile-body .edit-profile {
     font-size: 13.5pt;
     font-size: 1.71rem;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     line-height: 1.8;
 }
 
@@ -20431,7 +20454,7 @@ body.big-picture .ugc-comments li.comment {
     cursor: pointer;
     font-size: 9pt;
     font-size: 1.14rem;
-    font-family: "Benton Sans Bold", Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, Arial, sans-serif;
     line-height: 1.4;
     transition: color 0.1s linear, background-color 0.1s linear;
 }
@@ -20507,10 +20530,10 @@ body.big-picture .ugc-comments li.comment {
     border: 1px solid #000000;
 }
 
-.user-profile .widget div.timestamp {
+.user-profile .widget div.LCB-Century-CnBdtamp {
     font-size: 13.5pt;
     font-size: 1.71rem;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: "Times New Roman", serif;
     line-height: 1.8;
     color: #000000;
 }
@@ -20518,7 +20541,7 @@ body.big-picture .ugc-comments li.comment {
 .user-profile .widget.most-commented a {
     font-size: 11.25pt;
     font-size: 1.425rem;
-    font-family: Georgia, Times, "Times New Roman", serif;
+   font-family: "Times New Roman", serif;
     line-height: 1.8;
 }
 
@@ -20570,13 +20593,13 @@ body.big-picture .ugc-comments li.comment {
 }
 
 .brandlab__title {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-weight: normal;
     padding: 0 .5em 0 .75em;
 }
 
 .brandlab__title__unbold {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "LCB-Century-CnBd", LCB-Century-CnBd, serif;
     font-weight: normal;
 }
 
